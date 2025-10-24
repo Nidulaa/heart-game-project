@@ -1,0 +1,1 @@
+{"api_url": "https://www.random.org/integers/", "default_lives": 3, "points_per_correct": 10, "max_level": 10, "game_settings": {"difficulty_scaling": true, "enable_achievements": true, "save_history": true}, "api_settings": {"timeout": 5, "retry_attempts": 3, "fallback_enabled": true}, "display_settings": {"show_event_logs": true, "verbose_mode": false}}
