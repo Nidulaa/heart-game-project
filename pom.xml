@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.heartgame</groupId>
-    <artifactId>heart-game-project</artifactId>
+    <artifactId>heart-game</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Heart Game Project</name>
-    <description>A moderately complex card game using Heart API demonstrating software design principles, event-driven programming, interoperability, and virtual identity</description>
+    <name>Heart Game</name>
+    <description>A card-based math puzzle game demonstrating software design principles, event-driven programming, interoperability, and virtual identity</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -27,18 +26,11 @@
             <version>2.10.1</version>
         </dependency>
 
-        <!-- HTTP Client for API communication -->
-        <dependency>
-            <groupId>org.apache.httpcomponents.client5</groupId>
-            <artifactId>httpclient5</artifactId>
-            <version>5.2.1</version>
-        </dependency>
-
         <!-- JUnit for testing -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.9.3</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

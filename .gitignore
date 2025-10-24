@@ -32,8 +32,8 @@ buildNumber.properties
 
 # IntelliJ IDEA
 .idea/
-*.iws
 *.iml
+*.iws
 *.ipr
 
 # NetBeans
@@ -47,11 +47,9 @@ build/
 # VS Code
 .vscode/
 
-# macOS
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
 
-# User data (optional - remove if you want to track sample data)
-# data/users.json
+# User data directory
+userdata/
