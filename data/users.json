@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "name": "John Doe",
+        "virtualIdentity": "johndoe123"
+    },
+    {
+        "id": "2",
+        "name": "Jane Smith",
+        "virtualIdentity": "janesmith456"
+    }
+]
